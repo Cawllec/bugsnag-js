@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/bugsnag/platforms-bumpsnag
+  revision: 70909b98bba8e96956efdaab173464d1aab31f4c
+  branch: main
+  specs:
+    bumpsnag (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -99,9 +106,10 @@ GEM
       rexml (~> 3.2.4)
 
 PLATFORMS
-  ruby
+  arm64-darwin-22
 
 DEPENDENCIES
+  bumpsnag!
   cocoapods (~> 1.14.3)
 
 BUNDLED WITH
